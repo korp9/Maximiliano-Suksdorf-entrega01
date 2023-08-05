@@ -1,0 +1,66 @@
+/* Estilos para pantallas mayores a 767px (escritorio) */
+@media (min-width: 768px) {
+    .contenedor__movil{
+      display: none; /* Ocultar la sección con la clase "movil" en escritorio */
+    }
+    .contenedor__escritorio {
+      display: block; /* Mostrar la sección con la clase "escritorio" en escritorio */
+    }
+}
+  
+  /* Estilos para pantallas menores o iguales a 767px (móvil) */
+@media (max-width: 767px) {
+    .contenedor__movil {
+      display: block; /* Mostrar la sección con la clase "movil" en móvil */
+    }
+    .contenedor__escritorio {
+      display: none; /* Ocultar la sección con la clase "escritorio" en móvil */
+    }
+}
+
+
+
+.Titulo{
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Título2{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Texto{
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Texto2{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Texto3{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

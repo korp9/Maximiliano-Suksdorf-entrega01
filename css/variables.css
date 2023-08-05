@@ -1,0 +1,54 @@
+
+:root{
+    --bg: #F3EBEB;
+    --blue: #2F80ED;
+    --gray: #828282;     
+    --gray-3: #C4C4C4;
+    --gray-2: #4F4F4F;
+    --radius-12: 0.75rem;
+}
+
+.Titulo{
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Texto{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Texto2{
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Texto2{
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Texto3{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
