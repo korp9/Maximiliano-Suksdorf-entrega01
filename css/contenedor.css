@@ -5,13 +5,13 @@
   }
   .contenedor__escritorio {
       display: block; /* Mostrar la sección con la clase "escritorio" en escritorio */
-      width: 1280px; /* Establecer el ancho del contenedor en 1200 píxeles */
+      width: 1512px; /* Establecer el ancho del contenedor en 1200 píxeles */
       margin: 0 auto; /* Centrar el contenedor horizontalmente si es necesario */
   }
 }
 
 /* Estilos para pantallas menores o iguales a 767px (móvil) */
-@media (max-width: 767px) {
+@media (min-width: 494px) and (max-width: 767px) {
   .contenedor__movil {
       display: block; /* Mostrar la sección con la clase "movil" en móvil */
   }
