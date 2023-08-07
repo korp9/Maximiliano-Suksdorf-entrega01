@@ -1,5 +1,9 @@
+
+
+
+
 /* Estilos para pantallas mayores o iguales a 768px (escritorio) */
-@media (min-width: 768px) {
+@media (min-width: 494px) and (min-width: 768px) {
   .contenedor__movil {
       display: none; /* Ocultar la sección con la clase "movil" en escritorio */
   }
@@ -11,7 +15,7 @@
 }
 
 /* Estilos para pantallas menores o iguales a 767px (móvil) */
-@media (min-width: 494px) and (max-width: 767px) {
+@media  (max-width: 767px) {
   .contenedor__movil {
       display: block; /* Mostrar la sección con la clase "movil" en móvil */
   }
@@ -19,6 +23,49 @@
       display: none; /* Ocultar la sección con la clase "escritorio" en móvil */
   }
 }
+
+.contenedor-scroll{
+    flex-shrink: 0;
+    overflow-y:scroll;
+
+}
+
+.contenedor-scroll {
+     /*Estilos estándar experimentales (Principalmente Firefox)*/
+    scrollbar-color: var(--blue, #2F80ED)  var(--gray-3, #C4C4C4);
+    scrollbar-width: thin;
+
+}
+
+.contenedor-scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenedor-scroll::-webkit-scrollbar:vertical {
+    width:10px;
+
+}
+
+.contenedor-scroll::-webkit-scrollbar-button:increment,.contenedor-scroll::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenedor-scroll::-webkit-scrollbar:horizontal {
+    height: 1031px;
+}
+
+.contenedor-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--blue, #2F80ED) ;
+    flex-shrink: 0;
+}
+
+.contenedor-scroll::-webkit-scrollbar-track {
+    border-radius: 10px; 
+    background-color: var(--gray-3, #C4C4C4);
+}
+
+
+
 
 
 .Titulo{
@@ -30,7 +77,7 @@
     line-height: normal;
 }
 
-.Título2{
+.Titulo2{
 
     font-family: Montserrat;
     font-size: 16px;
