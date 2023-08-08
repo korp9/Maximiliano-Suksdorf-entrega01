@@ -1,5 +1,9 @@
 
-
+.contenedor{
+    width: 100%;
+    max-width: 1512px;
+    min-width: 494px;
+}
 
 
 /* Estilos para pantallas mayores o iguales a 768px (escritorio) */
@@ -42,7 +46,7 @@
 }
 
 .contenedor-scroll::-webkit-scrollbar:vertical {
-    width:10px;
+    width:0.625rem;
 
 }
 
@@ -51,7 +55,7 @@
 } 
 
 .contenedor-scroll::-webkit-scrollbar:horizontal {
-    height: 1031px;
+    height: 64.438rem;
 }
 
 .contenedor-scroll::-webkit-scrollbar-thumb {
@@ -60,7 +64,7 @@
 }
 
 .contenedor-scroll::-webkit-scrollbar-track {
-    border-radius: 10px; 
+    border-radius: 0.625rem; 
     background-color: var(--gray-3, #C4C4C4);
 }
 
@@ -71,7 +75,7 @@
 .Titulo{
 
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -80,7 +84,7 @@
 .Titulo2{
 
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -89,7 +93,7 @@
 .Texto{
 
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -98,7 +102,7 @@
 .Texto2{
 
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -107,7 +111,7 @@
 .Texto3{
 
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

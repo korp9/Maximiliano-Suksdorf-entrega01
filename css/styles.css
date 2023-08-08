@@ -59,10 +59,10 @@ body{
 
 .perfil-frame-6{
     display: flex;
-    height: 630px;
+    height: 39.375rem;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
     align-self: stretch;
 }
 
@@ -77,21 +77,21 @@ body{
 
 .perfil-frame-5{
     display: flex;
-    padding: 16px;
+    padding: 1rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
     flex: 1 0 0;
     align-self: stretch;
 }
 
 .perfil-frame-4{
     display: flex;
-    width: 268px;
+    width: 16.75rem;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .nombre{
@@ -367,12 +367,12 @@ body{
 
 .experience-3{
     display: flex;
-    width: 462px;
-    height: 329px;
-    padding: 16px;
+    width: 28.875rem;
+    height: 20.563rem;
+    padding: 1rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .experience-3-frame-1{
@@ -442,11 +442,11 @@ body{
 
 .certificates-portrait-2{
     display: flex;
-    width: 462px;
-    padding: 16px;
+    width: 28.875rem;
+    padding: 1rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .certificates-frame14{
@@ -515,7 +515,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
     align-self: stretch;
 }
 
@@ -523,16 +523,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
     flex: 1 0 0;
 }
 
 .frame-29{
     display: flex;
-    width: 865px;
+    width: 54.063rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
     align-self: stretch;
 }
 
@@ -540,7 +540,7 @@ body{
 
 .perfil-portrait-desk{
     display: flex;
-    padding: 16px;
+    padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -550,21 +550,20 @@ body{
 
 .perf-frame-6{
     display: flex;
-    height: 630px;
-    width: 32.938rem;
+    height: 39.375rem;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
     align-self: stretch;
 }
 
 .perf-frame-5{
     display: flex;
 
-    padding: 16px;
+    padding: 1rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5rem;
     flex: 1 0 0;
     align-self: stretch;
 }
@@ -576,7 +575,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1.5rem;
 }
 
 
@@ -589,7 +588,7 @@ body{
 
 .experience-portrait{
     display: flex;
-    height: 723px;
+    height: 45.188rem;
     padding: 16px;
     flex-direction: column;
     align-items: flex-start;
@@ -844,8 +843,8 @@ body{
 }
 
 .img-diplo{
-    width: 227px;
-    height: 151.473px;
+    width: 14.188rem;
+    height: 9.467rem;
     border-radius: 12px;
     border: 1px solid var(--gray-3, #C4C4C4);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
