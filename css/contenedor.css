@@ -1,38 +1,90 @@
-/* Estilos para pantallas mayores a 767px (escritorio) */
-@media (min-width: 768px) {
-    .contenedor__movil{
+
+.contenedor{
+    width: 100%;
+    max-width: 1512px;
+    min-width: 494px;
+}
+
+
+/* Estilos para pantallas mayores o iguales a 768px (escritorio) */
+@media (min-width: 494px) and (min-width: 768px) {
+  .contenedor__movil {
       display: none; /* Ocultar la sección con la clase "movil" en escritorio */
-    }
-    .contenedor__escritorio {
+  }
+  .contenedor__escritorio {
       display: block; /* Mostrar la sección con la clase "escritorio" en escritorio */
-    }
+      width: 1512px; /* Establecer el ancho del contenedor en 1200 píxeles */
+      margin: 0 auto; /* Centrar el contenedor horizontalmente si es necesario */
+  }
 }
-  
-  /* Estilos para pantallas menores o iguales a 767px (móvil) */
-@media (max-width: 767px) {
-    .contenedor__movil {
+
+/* Estilos para pantallas menores o iguales a 767px (móvil) */
+@media  (max-width: 767px) {
+  .contenedor__movil {
       display: block; /* Mostrar la sección con la clase "movil" en móvil */
-    }
-    .contenedor__escritorio {
+  }
+  .contenedor__escritorio {
       display: none; /* Ocultar la sección con la clase "escritorio" en móvil */
-    }
+  }
 }
+
+.contenedor-scroll{
+    flex-shrink: 0;
+    overflow-y:scroll;
+
+}
+
+.contenedor-scroll {
+     /*Estilos estándar experimentales (Principalmente Firefox)*/
+    scrollbar-color: var(--blue, #2F80ED)  var(--gray-3, #C4C4C4);
+    scrollbar-width: thin;
+
+}
+
+.contenedor-scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenedor-scroll::-webkit-scrollbar:vertical {
+    width:0.625rem;
+
+}
+
+.contenedor-scroll::-webkit-scrollbar-button:increment,.contenedor-scroll::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenedor-scroll::-webkit-scrollbar:horizontal {
+    height: 64.438rem;
+}
+
+.contenedor-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--blue, #2F80ED) ;
+    flex-shrink: 0;
+}
+
+.contenedor-scroll::-webkit-scrollbar-track {
+    border-radius: 0.625rem; 
+    background-color: var(--gray-3, #C4C4C4);
+}
+
+
 
 
 
 .Titulo{
 
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.Título2{
+.Titulo2{
 
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -41,7 +93,7 @@
 .Texto{
 
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -50,7 +102,7 @@
 .Texto2{
 
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -59,7 +111,7 @@
 .Texto3{
 
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
